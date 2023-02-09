@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
+      <Header movieNo={movieArr.length} />
       <List
         movieArr={movieArr}
       />

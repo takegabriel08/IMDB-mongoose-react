@@ -12,7 +12,7 @@ body {
     padding: 5px;
     text-align: center;
     border-bottom: 4px #8f8585 solid;
-    margin-bottom: 10px;
+    margin-bottom: 1em;
 }
 
 .List {
@@ -27,6 +27,7 @@ body {
     padding: 10px;
     margin-bottom: 10px;
     text-align: center;
+    box-shadow: 0 0 10px 10px rgb(30, 143, 255);
 }
 
 .movie-container {
@@ -34,10 +35,11 @@ body {
     flex-direction: "column";
     min-height: "500px";
     max-width: "150px";
-    background-color: "green";
+    background-color: #aec37d;
     margin: "1em";
     text-align: center;
     border-radius: 0.5em;
+    box-shadow: 0 0 10px 10px rgb(34, 151, 123);
 }
 
 .movie-details {
