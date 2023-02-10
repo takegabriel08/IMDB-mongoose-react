@@ -12,9 +12,8 @@ export default function List(props) {
             <div
                 key={el?.id || idx}
                 className="movie-container"
-                style={{ display: "inline-flex", flexDirection: "column", minHeight: "500px", width: "150px", backgroundColor: "green", margin: "1em" }}
             >
-                <h2 className="movie-title">{el.titleText.text}</h2>
+                    <h2 className="movie-title">{el.titleText.text}</h2>
                 <div className="image-container">
                     <img className='movie-image' src={el?.primaryImage?.url || noImg} />
                 </div>
@@ -35,9 +34,7 @@ export default function List(props) {
     })
     return (
         <main className='List'>
-            <div id="listContainer">
-                {movieElements}
-            </div>
+            {movieElements}
         </main>
     )
 }
